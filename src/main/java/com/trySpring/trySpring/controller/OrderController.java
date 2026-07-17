@@ -9,7 +9,7 @@ import com.trySpring.trySpring.service.OrderService;
 
 @RestController
 @RequestMapping("/orders")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class OrderController {
 
     @Autowired
