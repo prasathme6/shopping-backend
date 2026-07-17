@@ -9,7 +9,7 @@ import com.trySpring.trySpring.service.OrderService;
 
 @RestController
 @RequestMapping("/orders")
-@CrossOrigin(origins = "https://shopping-frontend.vercel.app")
+@CrossOrigin
 public class OrderController {
 
     @Autowired

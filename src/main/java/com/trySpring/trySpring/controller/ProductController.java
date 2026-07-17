@@ -12,7 +12,7 @@ import com.trySpring.trySpring.model.Product;
 import com.trySpring.trySpring.service.ProductService;
 
 @RestController
-@CrossOrigin(origins = "https://shopping-frontend.vercel.app")
+@CrossOrigin
 @RequestMapping("/api")
 public class ProductController {
 
